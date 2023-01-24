@@ -10,3 +10,35 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1F2937;
+   
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
