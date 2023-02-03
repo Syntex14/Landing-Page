@@ -14,13 +14,16 @@ body {
 .section-one {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+
+
+    
 }
 header {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #1F2937;
    
 }
 
@@ -29,6 +32,12 @@ header {
     justify-content: space-between;
     align-items: center;
     color: white;
+}
+
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+
 }
 
 ul {
@@ -41,4 +50,41 @@ ul {
 a {
     color: white;
     text-decoration: none;
+}
+
+.section-innerone {
+    display:flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    gap: 32px;
+    margin-bottom: 50px;
+
+}
+
+.modul {
+    width: 500px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+.inner-para p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.inner-para button {
+    color: white;
+    background: #3882f6;
+    padding: 4px 14px;
+    margin-top: 10px; /* will need to readjust spacing between sign up button and rest of modul/inner-para */
+
+}
+
+.section-innerone img {
+    height: 140px;
+    flex: 1;
 }
