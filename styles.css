@@ -164,3 +164,14 @@ h2 {
     background-color: #3882F6;
     padding: 3px 15px;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 70px;
+
+
+}
